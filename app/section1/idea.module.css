@@ -1,0 +1,22 @@
+.outer{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 40px;
+   margin-top:40px;
+}
+.inner{
+   background-color: #efefef;
+   padding: 40px;
+   text-align: center;
+   border-radius: 11px;
+   box-shadow: 1px 1px 8px 0px rgb(0 0 0 / 16%);
+}
+.inner h4{
+   font-size: 21px;
+   font-weight: 600;
+   margin-top: 10px;
+   margin-bottom: 6px;
+}
+.inner img{
+   margin: 0 auto;
+}
