@@ -4,6 +4,7 @@ import Choose from "./choose/page";
 import Bestmarketing from "./best/page";
 import Blogs from "./blogs/page";
 import Testimonial from "./testimonial/page";
+import Contact from "./contact/page";
 export default function Home() {
   return (
     <main>
@@ -13,6 +14,7 @@ export default function Home() {
       <Bestmarketing/>
       <Blogs/>
       <Testimonial/>
+      <Contact/>
     </main>
   );
 }

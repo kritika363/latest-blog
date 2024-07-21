@@ -85,3 +85,51 @@ p{
 .best {
   background: #efefef;
 }
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.grid-custom {
+  grid-template-columns: auto 1fr;
+  column-gap: 10px;
+  background: #fff;
+  padding: 18px;
+  border-radius: 23px;
+}
+.contact-sctn {
+  grid-template-columns: auto 1fr;
+  gap: 80px;
+  margin-top: -10%;
+  background: #fff !important;
+  z-index: 9;
+  position: relative;
+  border-radius: 10px;
+  padding: 42px;
+}
+.contact-sctn h3{
+  font-size: 28px;
+}
+.contact-sctn input,.contact-sctn textarea {
+  background: #f7f7f7;
+  padding: 8px 17px;
+  border-radius: 17px;
+  font-size: 14px;
+}
+.contact-sctn textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 22px;
+}
+.contact-sctn button {
+  margin-top: -5px;
+  background: #bc3835;
+  color: #fff;
+  padding: 9px 31px;
+  border-radius: 0px 10px 10px 57px;
+  margin-left: auto;
+  display: inline-block;
+}
