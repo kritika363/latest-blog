@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul className='navlinks flex'>
         <li> <Link href="/">Home</Link></li>
         <li><Link href="/">Services</Link></li>
-        <li><Link href="/">About Us</Link></li>
+        <li><Link href="/aboutpage">About Us</Link></li>
         <li><Link href="/">Features</Link></li>
         <li><Link href="/">Contact Us</Link></li>
         </ul>
