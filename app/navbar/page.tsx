@@ -9,10 +9,10 @@ const Navbar = () => {
         <Link href="/"><Image src="/logo.png" alt="" width={200} height={90}></Image></Link>
         <ul className='navlinks flex'>
         <li> <Link href="/">Home</Link></li>
-        <li><Link href="/">Services</Link></li>
-        <li><Link href="/aboutpage">About Us</Link></li>
-        <li><Link href="/">Features</Link></li>
-        <li><Link href="/">Contact Us</Link></li>
+        <li><Link href="#services">Services</Link></li>
+        <li><Link href="#about">About Us</Link></li>
+        <li><Link href="#features">Features</Link></li>
+        <li><Link href="#contact">Contact Us</Link></li>
         </ul>
       </div>     
     </div>

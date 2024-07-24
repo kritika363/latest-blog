@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Idea = () => {
   return (
-    <div className='idea mt-20 mb-40'>
+    <div className='idea mt-20 mb-40' id="services">
        <div className="container">
           <h3 className='text-center text-4xl mb-3 font-700'>Let's turn your idea into<br/> a <span className='text-red-800'>scalable business!</span></h3>
           <p className='text-center'>we can transform your vision into a thriving enterprise.</p>

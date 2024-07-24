@@ -5,7 +5,7 @@ import Features from '../component/features';
 
 const Bestmarketing = () => {
   return (
-    <div className='text-center best  pb-20'  >
+    <div className='text-center best  pb-20'  id="features">
       <div className="container">
       <Image src="/marketing.png" width={120} height={120} alt='marketing'></Image>
          <h2 className='text-4xl mb-3 font-700'>Amazing  <span className='text-red-800'> Features</span></h2>
