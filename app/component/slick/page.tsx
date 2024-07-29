@@ -17,7 +17,30 @@ export default function SimpleSlider() {
     autoplay: true,
     speed: 500,
     autoplaySpeed: 2000,
-    cssEase: "linear"
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1024, // screen width at which this configuration will apply
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768, // screen width at which this configuration will apply
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480, // screen width at which this configuration will apply
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <Slider {...settings}>

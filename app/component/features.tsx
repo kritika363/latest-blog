@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Features = () => {
   return (
     <div className='feature'>
-        <div className="container gap-8 grid  grid-cols-4 bg-white">
+        <div className="container gap-8 grid  grid-cols-1 md:grid-cols-4 bg-white">
             <div className='inner'>
                 <Image src="/troubleshooting.png" width={60} height={60} alt='resolution'></Image>
                 <h4 className='mt-3'>HIGH RESOLUTION</h4>
