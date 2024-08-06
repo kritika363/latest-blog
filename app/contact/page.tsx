@@ -1,4 +1,6 @@
-import React from 'react'
+"use cclient";
+import React from 'react';
+import ValidationForm from '../component/ValidationForm';
 
 const Contact = () => {
   return (
@@ -12,16 +14,7 @@ const Contact = () => {
                 <p className='mb-2'>Street no doky street 2440/x New Villa 14X USA</p>
             </div>
             <div>
-            <form>
-                <div className='grid grid-cols-4 gap-6'>
-                <input type="text" name="name"  placeholder='Name'/>
-                <input type="email" name="email"  placeholder='Email'/>
-                <input type="text" name="location"  placeholder='Location'/>
-                <input type="text" name="phone"  placeholder='Phone Number'/>             
-                </div>
-                <textarea name='message' placeholder='Message'></textarea>
-                <button type="submit">Submit</button>
-            </form>
+           <ValidationForm/>
             </div>
         </div>
     </div>
